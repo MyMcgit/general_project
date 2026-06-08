@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import Layout from './views/layout'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <button onClick={() => setCount((count) => count + 1)}></button>
-      <div>{count}</div>
+    <Layout></Layout>
     </>
   )
 }
