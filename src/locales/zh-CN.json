@@ -1,5 +1,7 @@
 {
   "welcome": "欢迎使用我们的应用",
   "ok": "确认",
-  "cancel": "取消"
+  "cancel": "取消",
+  "send": "发送",
+  "changeLanguage": "切换语言"
 }

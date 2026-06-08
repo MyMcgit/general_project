@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import AIRobot from '../../components/AImessage/index.tsx'; 
 
 export default function Layout() {
   const { t, i18n } = useTranslation();
@@ -13,8 +14,9 @@ export default function Layout() {
       <p>{t('user.greeting', { name: 'Alice' })}</p>
       <p>{t('notify', { count: 5 })}</p>
       <button onClick={changeLanguage}>
-        切换语言
+        {t('changeLanguage')}
       </button>
+      <AIRobot></AIRobot>
     </div>
   );
 }

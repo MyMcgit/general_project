@@ -1,5 +1,7 @@
 {
   "welcome": "welcome to our app",
   "ok": "ok",
-  "cancel": "cancel"
+  "cancel": "cancel",
+  "send": "send",
+  "changeLanguage": "change language"
 }
